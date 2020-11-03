@@ -10,6 +10,7 @@ body {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
+    clear: both;
 }
 
 a {
@@ -41,7 +42,7 @@ header {
     float: left;
     width: 100%;
     margin: 0 0 30px 0;
-    padding: 5px 0 0 0;
+    padding: 50px 0;
 }
 
 #logo {
@@ -69,6 +70,7 @@ nav li {
 
 nav a {
     padding: 15px 10px;
+    font-weight: 800;
 }
 
 
@@ -174,6 +176,8 @@ header {
 /* NAV BACKGROUND ON MOBILE */
 nav {
     background: #599a68;
+    margin: 60px 0 0;
+    padding: 10px 0;
 }
 
 /* LOGO COLOR */
