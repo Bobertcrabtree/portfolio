@@ -1,59 +1,67 @@
 @media screen and (min-width: 480px) {
-    /***
-    Two Column Layout
-    *//
 
+    /****************
+    TWO COLUMN LAYOUT
+    ****************/
     #primary {
-    width: 50%;
-    float: right;
-    
-}
+        width: 50%;
+        float: left;
+    }
 
     #secondary {
-    
-    width: 40px;
-    float: right;
-    margin-right: 20%;
-}
-    /*
-    Page about
-    */
-    .profilepic {
+        width: 40%;
+        float: right;
+    }
+
+    /****************
+    PAGE: ABOUT
+    ****************/
+    .profile-photo {
         float: left;
         margin: 0 5% 80px;
-        
-    } 
-     /*
-    Page Portfolio
-    */
-    nav {
-        margin-top:20px;
     }
-    
+
+    /****************
+    PAGE: PORTFOLIO
+    ****************/
+
     #gallery li {
         width: 28.3333%;
     }
+
     #gallery li:nth-child(4n) {
         clear: left;
     }
+
 }
 
-@media screen and (min-width: 660px;) {
+@media screen and (max-width: 660px) {
+    nav {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 660px) {
+
     h1 {
         font-size: 2.5em;
-        
     }
+
     h2 {
         font-size: 1.325em;
     }
+
     #logo {
         float: left;
         margin-left: 5%;
+        padding-bottom: 25px;
     }
+
     header {
         margin-bottom: 60px;
         border-bottom: 5px solid #599a68;
     }
+
     nav {
         float: right;
         background: none;
@@ -61,13 +69,7 @@
         width: 45%;
         margin-right: 5%;
     }
-    nav ul {
-        margin: 0 10px;
-        
-    }
-    nav li {
-        text-align: left;
-        
-        
-    }
+
+
+
 }
