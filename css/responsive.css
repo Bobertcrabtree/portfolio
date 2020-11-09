@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
 
     /****************
-    TWO COLUMN LAYOUT 
+    TWO COLUMN LAYOUT
     ****************/
     #primary {
         width: 50%;
@@ -11,6 +11,14 @@
     #secondary {
         width: 40%;
         float: right;
+    }
+
+    /****************
+    PAGE: ABOUT
+    ****************/
+    .profile-photo {
+        float: left;
+        margin: 0 5% 80px;
     }
 
     /****************
@@ -25,49 +33,43 @@
         clear: left;
     }
 
+}
 
-    /****************
-    PAGE: ABOUT
-    ****************/
-
-    .profile-photo {
-        float: left;
-        margin: 0 5% 80px 0;
+@media screen and (max-width: 660px) {
+    nav {
+        margin-top: 20px;
     }
-
 }
 
 @media screen and (min-width: 660px) {
 
-    #logo {
-        float: left;
-        margin-left: 5%;
-        text-align: left;
-        width: 45%;
-    }
-
     h1 {
         font-size: 2.5em;
-        margin-bottom: 1px;
     }
 
     h2 {
-        font-size: .825em;
-        margin-bottom: 20px;
+        font-size: 1.325em;
     }
 
-    nav {
-        background: none;
-        float: right;
-        font-size: 1.125em;
-        text-align: right;
-        width: 45%;
-        margin: 40px 0 0;
+    #logo {
+        float: left;
+        margin-left: 5%;
+        padding-bottom: 25px;
     }
 
     header {
-        border-bottom: 5px solid #599a68;
         margin-bottom: 60px;
+        border-bottom: 5px solid #599a68;
     }
+
+    nav {
+        float: right;
+        background: none;
+        text-align: right;
+        width: 45%;
+        margin-right: 5%;
+    }
+
+
 
 }
